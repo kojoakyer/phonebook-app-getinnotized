@@ -61,7 +61,7 @@ const [filteredData,setFilteredData] = React.useState(allData);
 
 
           const handleSearch = (event) => {
-            let value = event.target.value.toLowerCase();
+            let value = event.target.value;
             let result = [];
             console.log(value);
             result = allData.filter((data) => {
